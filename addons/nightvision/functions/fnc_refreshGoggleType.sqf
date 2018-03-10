@@ -96,8 +96,8 @@ if (alive ACE_player) then {
         // Same as above (JDT & AleM)
         _offset = _preset select 0;
         _blend = _preset select 1;
-      	_colorize = _preset select 2;
-      	_weight = _preset select 3;
+        _colorize = _preset select 2;
+        _weight = _preset select 3;
 
     } else {
         TRACE_1("source: vehicle - defaults",typeOf vehicle ACE_player);
